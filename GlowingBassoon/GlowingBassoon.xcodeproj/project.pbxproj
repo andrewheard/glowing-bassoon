@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		496AC72430707C0800CE0988 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 496AC72330707C0800CE0988 /* FirebaseCrashlytics */; };
+		496AC72E3070825400CE0988 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 496AC72D3070825400CE0988 /* MyLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* GlowingBassoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowingBassoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496AC72B3070824000CE0988 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -26,7 +27,7 @@
 		000000000000000130000000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
-				496AC72430707C0800CE0988 /* FirebaseCrashlytics in Frameworks */,
+				496AC72E3070825400CE0988 /* MyLibrary in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
+				496AC72B3070824000CE0988 /* MyLibrary */,
 				000000000000000000000010 /* GlowingBassoon */,
 				000000000000000000000020 /* Products */,
 			);
@@ -66,7 +68,7 @@
 			);
 			name = GlowingBassoon;
 			packageProductDependencies = (
-				496AC72330707C0800CE0988 /* FirebaseCrashlytics */,
+				496AC72D3070825400CE0988 /* MyLibrary */,
 			);
 			productName = MyApp;
 			productReference = 000000000000000000000120 /* GlowingBassoon.app */;
@@ -97,7 +99,7 @@
 			mainGroup = 000000000000000000000001;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				496AC72230707C0800CE0988 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				496AC72C3070825400CE0988 /* XCLocalSwiftPackageReference "MyLibrary" */,
 			);
 			preferredProjectObjectVersion = 90;
 			productRefGroup = 000000000000000000000020 /* Products */;
@@ -361,22 +363,17 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		496AC72230707C0800CE0988 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 12.18.0;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		496AC72C3070825400CE0988 /* XCLocalSwiftPackageReference "MyLibrary" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MyLibrary;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		496AC72330707C0800CE0988 /* FirebaseCrashlytics */ = {
+		496AC72D3070825400CE0988 /* MyLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 496AC72230707C0800CE0988 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
+			productName = MyLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
