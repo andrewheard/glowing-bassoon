@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/firebase-ios-sdk.git",
       "state" : {
-        "revision" : "346daa9f46316aa372b35b317e18224acc2e9063",
-        "version" : "12.18.0"
+        "revision" : "efad2b784dfae43404dc1fcfdf272981b235e71f",
+        "version" : "13.2.0"
       }
     },
     {
